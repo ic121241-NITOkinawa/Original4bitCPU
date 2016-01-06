@@ -1,0 +1,3 @@
+vhdtdtfi -lib work ALU.vhd -prj OriginalCPU -o ALU.spl -module ALU -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 ALU.spl C:/ForVHDL/OriginalCPU/ALU.sym 
+vhdtdtfi -prj OriginalCPU -o C:/ForVHDL/OriginalCPU/ALU.vhi -module ALU -template C:/Xilinx/14.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ALU.vhd 

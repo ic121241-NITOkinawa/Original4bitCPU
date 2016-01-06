@@ -1,0 +1,27 @@
+V3 19
+FL C:/ForVHDL/OriginalCPU/ALU.vhd 2016/01/05.08:29:53 P.49d
+EN work/ALU 1451977616 FL C:/ForVHDL/OriginalCPU/ALU.vhd PB ieee/std_logic_1164 1354696159 \
+      PB ieee/std_logic_arith 1354696160 PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/ALU/Behavioral 1451977617 \
+      FL C:/ForVHDL/OriginalCPU/ALU.vhd EN work/ALU 1451977616
+FL C:/ForVHDL/OriginalCPU/FlagRegistor.vhd 2016/01/05.08:29:39 P.49d
+EN work/FlagRegistor 1451977618 FL C:/ForVHDL/OriginalCPU/FlagRegistor.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/FlagRegistor/Behavioral 1451977619 \
+      FL C:/ForVHDL/OriginalCPU/FlagRegistor.vhd EN work/FlagRegistor 1451977618
+FL C:/ForVHDL/OriginalCPU/OriginalCPU.vhd 2016/01/05.16:06:53 P.49d
+EN work/OriginalCPU 1451977624 FL C:/ForVHDL/OriginalCPU/OriginalCPU.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/OriginalCPU/Behavioral 1451977625 \
+      FL C:/ForVHDL/OriginalCPU/OriginalCPU.vhd EN work/OriginalCPU 1451977624 \
+      CP ALU CP FlagRegistor CP Reg_4bit CP SEL_A
+FL C:/ForVHDL/OriginalCPU/Reg_4bit.vhd 2016/01/05.08:29:27 P.49d
+EN work/Reg_4bit 1451977620 FL C:/ForVHDL/OriginalCPU/Reg_4bit.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/Reg_4bit/Behavioral 1451977621 \
+      FL C:/ForVHDL/OriginalCPU/Reg_4bit.vhd EN work/Reg_4bit 1451977620
+FL C:/ForVHDL/OriginalCPU/SEL_A.vhd 2016/01/05.08:29:46 P.49d
+EN work/SEL_A 1451977622 FL C:/ForVHDL/OriginalCPU/SEL_A.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/SEL_A/Behavioral 1451977623 \
+      FL C:/ForVHDL/OriginalCPU/SEL_A.vhd EN work/SEL_A 1451977622

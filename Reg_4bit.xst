@@ -1,0 +1,5 @@
+set -tmpdir "C:/ForVHDL/OriginalCPU/xst/projnav.tmp"
+set -xsthdpdir "C:/ForVHDL/OriginalCPU/xst"
+elaborate
+-ifn Reg_4bit.prj
+-ifmt mixed
