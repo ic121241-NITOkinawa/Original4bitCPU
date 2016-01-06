@@ -5,17 +5,47 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="1610" delta="old" >&quot;<arg fmt="%s" index="1">C:/ForVHDL/OriginalCPU/ALU.vhd</arg>&quot; line <arg fmt="%d" index="2">61</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">ALU_Z</arg>&gt; has a width of <arg fmt="%d" index="4">5</arg> bits but assigned expression is <arg fmt="%d" index="5">9</arg>-bit wide.
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/OriginalCPU</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/ForVHDL/OriginalCPU/OriginalCPU.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/ForVHDL/OriginalCPU_C/OriginalCPU.vhd</arg>&quot;.
 </msg>
 
-<msg type="warning" file="Xst" num="1610" delta="old" >&quot;<arg fmt="%s" index="1">C:/ForVHDL/OriginalCPU/ALU.vhd</arg>&quot; line <arg fmt="%d" index="2">62</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">ALU_Z</arg>&gt; has a width of <arg fmt="%d" index="4">5</arg> bits but assigned expression is <arg fmt="%d" index="5">9</arg>-bit wide.
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/OriginalCPU/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/ForVHDL/OriginalCPU/OriginalCPU.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/ForVHDL/OriginalCPU_C/OriginalCPU.vhd</arg>&quot;.
 </msg>
 
-<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/ForVHDL/OriginalCPU/ALU.vhd</arg>&quot; line <arg fmt="%d" index="2">59</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ALU</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/ForVHDL/OriginalCPU/ALU.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/ForVHDL/OriginalCPU_C/ALU.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ALU/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/ForVHDL/OriginalCPU/ALU.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/ForVHDL/OriginalCPU_C/ALU.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FlagRegistor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/ForVHDL/OriginalCPU/FlagRegistor.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/ForVHDL/OriginalCPU_C/FlagRegistor.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FlagRegistor/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/ForVHDL/OriginalCPU/FlagRegistor.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/ForVHDL/OriginalCPU_C/FlagRegistor.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Reg_4bit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/ForVHDL/OriginalCPU/Reg_4bit.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/ForVHDL/OriginalCPU_C/Reg_4bit.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Reg_4bit/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/ForVHDL/OriginalCPU/Reg_4bit.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/ForVHDL/OriginalCPU_C/Reg_4bit.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/SEL_A</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/ForVHDL/OriginalCPU/SEL_A.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/ForVHDL/OriginalCPU_C/SEL_A.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/SEL_A/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/ForVHDL/OriginalCPU/SEL_A.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/ForVHDL/OriginalCPU_C/SEL_A.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="new" >&quot;<arg fmt="%s" index="1">C:/ForVHDL/OriginalCPU_C/ALU.vhd</arg>&quot; line <arg fmt="%d" index="2">61</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">ALU_Z</arg>&gt; has a width of <arg fmt="%d" index="4">5</arg> bits but assigned expression is <arg fmt="%d" index="5">9</arg>-bit wide.
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="new" >&quot;<arg fmt="%s" index="1">C:/ForVHDL/OriginalCPU_C/ALU.vhd</arg>&quot; line <arg fmt="%d" index="2">62</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">ALU_Z</arg>&gt; has a width of <arg fmt="%d" index="4">5</arg> bits but assigned expression is <arg fmt="%d" index="5">9</arg>-bit wide.
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">C:/ForVHDL/OriginalCPU_C/ALU.vhd</arg>&quot; line <arg fmt="%d" index="2">59</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
 <arg fmt="%s" index="3">&lt;ALU_A&gt;, &lt;ALU_B&gt;</arg>
 </msg>
 
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">SEL_Z</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">SEL_Z</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
 </msg>
 
 <msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">ONE</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">1</arg>.
@@ -54,11 +84,11 @@ This instance will be removed from the design along with all underlying logic
 It will be removed from the design.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">CPU_A_REG</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">OriginalCPU</arg>&gt;.
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">CPU_A_REG</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">OriginalCPU</arg>&gt;.
 It will be removed from the design.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">CPU_SEL_A</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">OriginalCPU</arg>&gt;.
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">CPU_SEL_A</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">OriginalCPU</arg>&gt;.
 It will be removed from the design.
 </msg>
 
@@ -90,22 +120,22 @@ It will be removed from the design.
 It will be removed from the design.
 </msg>
 
-<msg type="warning" file="Xst" num="1989" delta="new" >Unit &lt;<arg fmt="%s" index="1">OriginalCPU</arg>&gt;: instances &lt;<arg fmt="%s" index="2">CPU_A_REG</arg>&gt;, &lt;<arg fmt="%s" index="3">CPU_O_REG</arg>&gt; of unit &lt;<arg fmt="%s" index="4">Reg_4bit</arg>&gt; are equivalent, second instance is removed
+<msg type="warning" file="Xst" num="1989" delta="old" >Unit &lt;<arg fmt="%s" index="1">OriginalCPU</arg>&gt;: instances &lt;<arg fmt="%s" index="2">CPU_A_REG</arg>&gt;, &lt;<arg fmt="%s" index="3">CPU_O_REG</arg>&gt; of unit &lt;<arg fmt="%s" index="4">Reg_4bit</arg>&gt; are equivalent, second instance is removed
 </msg>
 
-<msg type="warning" file="Xst" num="1989" delta="new" >Unit &lt;<arg fmt="%s" index="1">OriginalCPU</arg>&gt;: instances &lt;<arg fmt="%s" index="2">CPU_A_REG</arg>&gt;, &lt;<arg fmt="%s" index="3">CPU_PC</arg>&gt; of unit &lt;<arg fmt="%s" index="4">Reg_4bit</arg>&gt; are equivalent, second instance is removed
+<msg type="warning" file="Xst" num="1989" delta="old" >Unit &lt;<arg fmt="%s" index="1">OriginalCPU</arg>&gt;: instances &lt;<arg fmt="%s" index="2">CPU_A_REG</arg>&gt;, &lt;<arg fmt="%s" index="3">CPU_PC</arg>&gt; of unit &lt;<arg fmt="%s" index="4">Reg_4bit</arg>&gt; are equivalent, second instance is removed
 </msg>
 
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">CPU_A_REG/TMP_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OriginalCPU</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">CPU_A_REG/TMP_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OriginalCPU</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">CPU_A_REG/TMP_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OriginalCPU</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">CPU_A_REG/TMP_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OriginalCPU</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">CPU_A_REG/TMP_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OriginalCPU</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">CPU_A_REG/TMP_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OriginalCPU</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">CPU_A_REG/TMP_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OriginalCPU</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">CPU_A_REG/TMP_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">OriginalCPU</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="1899" delta="old" >Due to constant pushing, all outputs of the instance &lt;<arg fmt="%s" index="1">CPU_ALU</arg>&gt; of the block &lt;<arg fmt="%s" index="2">ALU</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">OriginalCPU</arg>&gt;.

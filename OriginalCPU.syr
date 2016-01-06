@@ -1,16 +1,16 @@
-Release 14.4 - xst P.49d (nt)
+Release 14.4 - xst P.49d (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.16 secs
+Total CPU time to Xst completion: 0.59 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.16 secs
+Total CPU time to Xst completion: 0.60 secs
  
 --> Reading design: OriginalCPU.prj
 
@@ -104,17 +104,26 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/ForVHDL/OriginalCPU/ALU.vhd" in Library work.
+WARNING:HDLParsers:3607 - Unit work/OriginalCPU is now defined in a different file.  It was defined in "C:/ForVHDL/OriginalCPU/OriginalCPU.vhd", and is now defined in "C:/ForVHDL/OriginalCPU_C/OriginalCPU.vhd".
+WARNING:HDLParsers:3607 - Unit work/OriginalCPU/Behavioral is now defined in a different file.  It was defined in "C:/ForVHDL/OriginalCPU/OriginalCPU.vhd", and is now defined in "C:/ForVHDL/OriginalCPU_C/OriginalCPU.vhd".
+WARNING:HDLParsers:3607 - Unit work/ALU is now defined in a different file.  It was defined in "C:/ForVHDL/OriginalCPU/ALU.vhd", and is now defined in "C:/ForVHDL/OriginalCPU_C/ALU.vhd".
+WARNING:HDLParsers:3607 - Unit work/ALU/Behavioral is now defined in a different file.  It was defined in "C:/ForVHDL/OriginalCPU/ALU.vhd", and is now defined in "C:/ForVHDL/OriginalCPU_C/ALU.vhd".
+WARNING:HDLParsers:3607 - Unit work/FlagRegistor is now defined in a different file.  It was defined in "C:/ForVHDL/OriginalCPU/FlagRegistor.vhd", and is now defined in "C:/ForVHDL/OriginalCPU_C/FlagRegistor.vhd".
+WARNING:HDLParsers:3607 - Unit work/FlagRegistor/Behavioral is now defined in a different file.  It was defined in "C:/ForVHDL/OriginalCPU/FlagRegistor.vhd", and is now defined in "C:/ForVHDL/OriginalCPU_C/FlagRegistor.vhd".
+WARNING:HDLParsers:3607 - Unit work/Reg_4bit is now defined in a different file.  It was defined in "C:/ForVHDL/OriginalCPU/Reg_4bit.vhd", and is now defined in "C:/ForVHDL/OriginalCPU_C/Reg_4bit.vhd".
+WARNING:HDLParsers:3607 - Unit work/Reg_4bit/Behavioral is now defined in a different file.  It was defined in "C:/ForVHDL/OriginalCPU/Reg_4bit.vhd", and is now defined in "C:/ForVHDL/OriginalCPU_C/Reg_4bit.vhd".
+WARNING:HDLParsers:3607 - Unit work/SEL_A is now defined in a different file.  It was defined in "C:/ForVHDL/OriginalCPU/SEL_A.vhd", and is now defined in "C:/ForVHDL/OriginalCPU_C/SEL_A.vhd".
+WARNING:HDLParsers:3607 - Unit work/SEL_A/Behavioral is now defined in a different file.  It was defined in "C:/ForVHDL/OriginalCPU/SEL_A.vhd", and is now defined in "C:/ForVHDL/OriginalCPU_C/SEL_A.vhd".
+Compiling vhdl file "C:/ForVHDL/OriginalCPU_C/ALU.vhd" in Library work.
 Architecture behavioral of Entity alu is up to date.
-Compiling vhdl file "C:/ForVHDL/OriginalCPU/FlagRegistor.vhd" in Library work.
+Compiling vhdl file "C:/ForVHDL/OriginalCPU_C/FlagRegistor.vhd" in Library work.
 Architecture behavioral of Entity flagregistor is up to date.
-Compiling vhdl file "C:/ForVHDL/OriginalCPU/Reg_4bit.vhd" in Library work.
+Compiling vhdl file "C:/ForVHDL/OriginalCPU_C/Reg_4bit.vhd" in Library work.
 Architecture behavioral of Entity reg_4bit is up to date.
-Compiling vhdl file "C:/ForVHDL/OriginalCPU/SEL_A.vhd" in Library work.
+Compiling vhdl file "C:/ForVHDL/OriginalCPU_C/SEL_A.vhd" in Library work.
 Architecture behavioral of Entity sel_a is up to date.
-Compiling vhdl file "C:/ForVHDL/OriginalCPU/OriginalCPU.vhd" in Library work.
-Entity <originalcpu> compiled.
-Entity <originalcpu> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/ForVHDL/OriginalCPU_C/OriginalCPU.vhd" in Library work.
+Architecture behavioral of Entity originalcpu is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
@@ -137,9 +146,9 @@ Analyzing Entity <OriginalCPU> in library <work> (Architecture <behavioral>).
 Entity <OriginalCPU> analyzed. Unit <OriginalCPU> generated.
 
 Analyzing Entity <ALU> in library <work> (Architecture <behavioral>).
-WARNING:Xst:1610 - "C:/ForVHDL/OriginalCPU/ALU.vhd" line 61: Width mismatch. <ALU_Z> has a width of 5 bits but assigned expression is 9-bit wide.
-WARNING:Xst:1610 - "C:/ForVHDL/OriginalCPU/ALU.vhd" line 62: Width mismatch. <ALU_Z> has a width of 5 bits but assigned expression is 9-bit wide.
-WARNING:Xst:819 - "C:/ForVHDL/OriginalCPU/ALU.vhd" line 59: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:1610 - "C:/ForVHDL/OriginalCPU_C/ALU.vhd" line 61: Width mismatch. <ALU_Z> has a width of 5 bits but assigned expression is 9-bit wide.
+WARNING:Xst:1610 - "C:/ForVHDL/OriginalCPU_C/ALU.vhd" line 62: Width mismatch. <ALU_Z> has a width of 5 bits but assigned expression is 9-bit wide.
+WARNING:Xst:819 - "C:/ForVHDL/OriginalCPU_C/ALU.vhd" line 59: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <ALU_A>, <ALU_B>
 Entity <ALU> analyzed. Unit <ALU> generated.
 
@@ -160,7 +169,7 @@ Entity <SEL_A> analyzed. Unit <SEL_A> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <ALU>.
-    Related source file is "C:/ForVHDL/OriginalCPU/ALU.vhd".
+    Related source file is "C:/ForVHDL/OriginalCPU_C/ALU.vhd".
     Using one-hot encoding for signal <CRST>.
     Found 8x8-bit ROM for signal <CRST>.
     Found 4-bit comparator greater for signal <ALU_Z$cmp_gt0000> created at line 63.
@@ -175,12 +184,12 @@ Unit <ALU> synthesized.
 
 
 Synthesizing Unit <FlagRegistor>.
-    Related source file is "C:/ForVHDL/OriginalCPU/FlagRegistor.vhd".
+    Related source file is "C:/ForVHDL/OriginalCPU_C/FlagRegistor.vhd".
 Unit <FlagRegistor> synthesized.
 
 
 Synthesizing Unit <Reg_4bit>.
-    Related source file is "C:/ForVHDL/OriginalCPU/Reg_4bit.vhd".
+    Related source file is "C:/ForVHDL/OriginalCPU_C/Reg_4bit.vhd".
     Found 4-bit register for signal <TMP>.
     Summary:
 	inferred   4 D-type flip-flop(s).
@@ -188,12 +197,12 @@ Unit <Reg_4bit> synthesized.
 
 
 Synthesizing Unit <SEL_A>.
-    Related source file is "C:/ForVHDL/OriginalCPU/SEL_A.vhd".
+    Related source file is "C:/ForVHDL/OriginalCPU_C/SEL_A.vhd".
 Unit <SEL_A> synthesized.
 
 
 Synthesizing Unit <OriginalCPU>.
-    Related source file is "C:/ForVHDL/OriginalCPU/OriginalCPU.vhd".
+    Related source file is "C:/ForVHDL/OriginalCPU_C/OriginalCPU.vhd".
 WARNING:Xst:653 - Signal <SEL_Z> is used but never assigned. This sourceless signal will be automatically connected to value 0.
 WARNING:Xst:653 - Signal <ONE> is used but never assigned. This sourceless signal will be automatically connected to value 1.
 WARNING:Xst:1780 - Signal <NXST> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
@@ -367,14 +376,14 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 5.91 secs
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.80 secs
  
 --> 
 
-Total memory usage is 217552 kilobytes
+Total memory usage is 255356 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   33 (   0 filtered)
+Number of warnings :   43 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 
