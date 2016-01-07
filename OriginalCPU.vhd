@@ -43,6 +43,28 @@ architecture Behavioral of OriginalCPU is
 	
 	signal ONE : std_logic := '1';
 	
+--	for main memory
+	subtype ROM_WORD is std_logic_vector (7 downto 0);
+	type ROM : is array (0 to 2**4 - 1) of ROM_WORD;
+	
+--	Operation Code
+	constant  : std_logic_vector(3 downto 0) := "0000";
+	constant  : std_logic_vector(3 downto 0) := "0001";
+	constant  : std_logic_vector(3 downto 0) := "0010";
+	constant  : std_logic_vector(3 downto 0) := "0011";
+	constant  : std_logic_vector(3 downto 0) := "0100";
+	constant  : std_logic_vector(3 downto 0) := "0101";
+	constant  : std_logic_vector(3 downto 0) := "0110";
+	constant  : std_logic_vector(3 downto 0) := "0111";
+	constant  : std_logic_vector(3 downto 0) := "1000";
+	constant  : std_logic_vector(3 downto 0) := "1001";
+	constant  : std_logic_vector(3 downto 0) := "1010";
+	constant  : std_logic_vector(3 downto 0) := "1011";
+	constant  : std_logic_vector(3 downto 0) := "1100";
+	constant  : std_logic_vector(3 downto 0) := "1101";
+	constant  : std_logic_vector(3 downto 0) := "1110";
+	constant  : std_logic_vector(3 downto 0) := "1111";
+	
 	--selecter bus
 	signal BUS_LATCH  : std_logic_vector (2 downto 0);
 	signal BUS_IR     : std_logic_vector (7 downto 0);
