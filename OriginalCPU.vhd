@@ -48,22 +48,22 @@ architecture Behavioral of OriginalCPU is
 	type ROM : is array (0 to 2**4 - 1) of ROM_WORD;
 	
 --	Operation Code
-	constant  : std_logic_vector(3 downto 0) := "0000";
-	constant  : std_logic_vector(3 downto 0) := "0001";
-	constant  : std_logic_vector(3 downto 0) := "0010";
-	constant  : std_logic_vector(3 downto 0) := "0011";
-	constant  : std_logic_vector(3 downto 0) := "0100";
-	constant  : std_logic_vector(3 downto 0) := "0101";
-	constant  : std_logic_vector(3 downto 0) := "0110";
-	constant  : std_logic_vector(3 downto 0) := "0111";
-	constant  : std_logic_vector(3 downto 0) := "1000";
-	constant  : std_logic_vector(3 downto 0) := "1001";
-	constant  : std_logic_vector(3 downto 0) := "1010";
-	constant  : std_logic_vector(3 downto 0) := "1011";
-	constant  : std_logic_vector(3 downto 0) := "1100";
-	constant  : std_logic_vector(3 downto 0) := "1101";
-	constant  : std_logic_vector(3 downto 0) := "1110";
-	constant  : std_logic_vector(3 downto 0) := "1111";
+	constant  : std_logic_vector(3 downto 0) := "0000"; --LD  A, Imm
+	constant  : std_logic_vector(3 downto 0) := "0001"; --OUT A
+	constant  : std_logic_vector(3 downto 0) := "0010"; --ADD OUT, Imm
+	constant  : std_logic_vector(3 downto 0) := "0011"; --ADD A, Imm
+	constant  : std_logic_vector(3 downto 0) := "0100"; --SUB A, Imm
+	constant  : std_logic_vector(3 downto 0) := "0101"; --CMP A, Imm
+	constant  : std_logic_vector(3 downto 0) := "0110"; --AND A, Imm
+	constant  : std_logic_vector(3 downto 0) := "0111"; --OR  A, Imm
+	constant  : std_logic_vector(3 downto 0) := "1000"; --XOR A, Imm
+	constant  : std_logic_vector(3 downto 0) := "1001"; --SHL A
+	constant  : std_logic_vector(3 downto 0) := "1010"; --SHR A
+	constant  : std_logic_vector(3 downto 0) := "1011"; --NOT A
+	constant  : std_logic_vector(3 downto 0) := "1100"; --JMP Imm
+	constant  : std_logic_vector(3 downto 0) := "1101"; --JMC Imm
+	constant  : std_logic_vector(3 downto 0) := "1110"; --JMZ Imm
+--	constant  : std_logic_vector(3 downto 0) := "1111"; --JMV Imm
 	
 	--selecter bus
 	signal BUS_LATCH  : std_logic_vector (2 downto 0);
@@ -100,6 +100,12 @@ architecture Behavioral of OriginalCPU is
 		port ( ALU_A, ALU_B : in std_logic_vector (3 downto 0);
 				 ALU_S : in  std_logic_vector (2 downto 0);
 				 ALU_Z : out std_logic_vector (4 downto 0));
+	end component;
+	
+	component XXX
+		port (	 : in  std_logic_vector ();
+					 : out std_logic_vector ();
+					);
 	end component;
 	
 begin
