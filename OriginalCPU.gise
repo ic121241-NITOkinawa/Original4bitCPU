@@ -47,6 +47,9 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Reg_4bit.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Reg_4bit.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="Reg_4bit.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SELECTER.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="SELECTER.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="SELECTER.xst"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SEL_A.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="SEL_A.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="SEL_A.xst"/>
@@ -89,8 +92,10 @@
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="OriginalCPU.lso"/>
       <outfile xil_pn:name="OriginalCPU.ngc"/>

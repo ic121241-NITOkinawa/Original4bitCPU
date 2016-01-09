@@ -1,10 +1,12 @@
-EN flagregistor NULL C:/ForVHDL/OriginalCPU_C/FlagRegistor.vhd sub00/vhpl04 1452040713
-EN reg_4bit NULL C:/ForVHDL/OriginalCPU_C/Reg_4bit.vhd sub00/vhpl08 1452040715
-AR flagregistor behavioral C:/ForVHDL/OriginalCPU_C/FlagRegistor.vhd sub00/vhpl05 1452040714
 AR sel_a behavioral C:/ForVHDL/OriginalCPU_C/SEL_A.vhd sub00/vhpl07 1452040718
-EN originalcpu NULL C:/ForVHDL/OriginalCPU_C/OriginalCPU.vhd sub00/vhpl00 1452040719
+EN selecter NULL C:/ForVHDL/OriginalCPU_C/SELECTER.vhd sub00/vhpl10 1452345556
 AR alu behavioral C:/ForVHDL/OriginalCPU_C/ALU.vhd sub00/vhpl03 1452040712
-EN sel_a NULL C:/ForVHDL/OriginalCPU_C/SEL_A.vhd sub00/vhpl06 1452040717
 AR originalcpu behavioral C:/ForVHDL/OriginalCPU_C/OriginalCPU.vhd sub00/vhpl01 1452040720
+EN reg_4bit NULL C:/ForVHDL/OriginalCPU_C/Reg_4bit.vhd sub00/vhpl08 1452040715
 AR reg_4bit behavioral C:/ForVHDL/OriginalCPU_C/Reg_4bit.vhd sub00/vhpl09 1452040716
+AR flagregistor behavioral C:/ForVHDL/OriginalCPU_C/FlagRegistor.vhd sub00/vhpl05 1452040714
+AR selecter behavioral C:/ForVHDL/OriginalCPU_C/SELECTER.vhd sub00/vhpl11 1452345557
+EN originalcpu NULL C:/ForVHDL/OriginalCPU_C/OriginalCPU.vhd sub00/vhpl00 1452040719
+EN flagregistor NULL C:/ForVHDL/OriginalCPU_C/FlagRegistor.vhd sub00/vhpl04 1452040713
+EN sel_a NULL C:/ForVHDL/OriginalCPU_C/SEL_A.vhd sub00/vhpl06 1452040717
 EN alu NULL C:/ForVHDL/OriginalCPU_C/ALU.vhd sub00/vhpl02 1452040711

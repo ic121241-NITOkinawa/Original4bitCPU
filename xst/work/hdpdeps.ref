@@ -1,4 +1,4 @@
-V3 24
+V3 27
 FL C:/ForVHDL/OriginalCPU/ALU.vhd 2016/01/05.08:29:53 P.49d
 FL C:/ForVHDL/OriginalCPU/FlagRegistor.vhd 2016/01/05.08:29:39 P.49d
 FL C:/ForVHDL/OriginalCPU/OriginalCPU.vhd 2016/01/05.16:06:53 P.49d
@@ -25,6 +25,11 @@ EN work/Reg_4bit 1452040715 FL C:/ForVHDL/OriginalCPU_C/Reg_4bit.vhd \
       PB ieee/std_logic_1164 1354696159
 AR work/Reg_4bit/Behavioral 1452040716 \
       FL C:/ForVHDL/OriginalCPU_C/Reg_4bit.vhd EN work/Reg_4bit 1452040715
+FL C:/ForVHDL/OriginalCPU_C/SELECTER.vhd 2016/01/09.22:19:10 P.49d
+EN work/SELECTER 1452345556 FL C:/ForVHDL/OriginalCPU_C/SELECTER.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/SELECTER/Behavioral 1452345557 \
+      FL C:/ForVHDL/OriginalCPU_C/SELECTER.vhd EN work/SELECTER 1452345556
 FL C:/ForVHDL/OriginalCPU_C/SEL_A.vhd 2016/01/05.08:29:46 P.49d
 EN work/SEL_A 1452040717 FL C:/ForVHDL/OriginalCPU_C/SEL_A.vhd \
       PB ieee/std_logic_1164 1354696159

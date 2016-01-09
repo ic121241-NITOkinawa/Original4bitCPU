@@ -1,0 +1,5 @@
+set -tmpdir "C:/ForVHDL/OriginalCPU_C/xst/projnav.tmp"
+set -xsthdpdir "C:/ForVHDL/OriginalCPU_C/xst"
+elaborate
+-ifn SELECTER.prj
+-ifmt mixed
