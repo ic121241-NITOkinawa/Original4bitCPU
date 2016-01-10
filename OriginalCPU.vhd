@@ -45,24 +45,24 @@ architecture Behavioral of OriginalCPU is
 	
 --	for main memory
 	subtype ROM_WORD is std_logic_vector (7 downto 0);
-	type ROM : is array (0 to 2**4 - 1) of ROM_WORD;
+	type ROM is array (0 to 2**4 - 1) of ROM_WORD;
 	
 --	Operation Code
-	constant  : std_logic_vector(3 downto 0) := "0000"; --LD  A, Imm
-	constant  : std_logic_vector(3 downto 0) := "0001"; --OUT A
-	constant  : std_logic_vector(3 downto 0) := "0010"; --ADD OUT, Imm
-	constant  : std_logic_vector(3 downto 0) := "0011"; --ADD A, Imm
-	constant  : std_logic_vector(3 downto 0) := "0100"; --SUB A, Imm
-	constant  : std_logic_vector(3 downto 0) := "0101"; --CMP A, Imm
-	constant  : std_logic_vector(3 downto 0) := "0110"; --AND A, Imm
-	constant  : std_logic_vector(3 downto 0) := "0111"; --OR  A, Imm
-	constant  : std_logic_vector(3 downto 0) := "1000"; --XOR A, Imm
-	constant  : std_logic_vector(3 downto 0) := "1001"; --SHL A
-	constant  : std_logic_vector(3 downto 0) := "1010"; --SHR A
-	constant  : std_logic_vector(3 downto 0) := "1011"; --NOT A
-	constant  : std_logic_vector(3 downto 0) := "1100"; --JMP Imm
-	constant  : std_logic_vector(3 downto 0) := "1101"; --JMC Imm
-	constant  : std_logic_vector(3 downto 0) := "1110"; --JMZ Imm
+	constant LD_A  : std_logic_vector(3 downto 0) := "0000"; --LD  A, Imm
+	constant OUT_A : std_logic_vector(3 downto 0) := "0001"; --OUT A
+	constant ADD_O : std_logic_vector(3 downto 0) := "0010"; --ADD OUT, Imm
+	constant ADD_A : std_logic_vector(3 downto 0) := "0011"; --ADD A, Imm
+	constant SUB_A : std_logic_vector(3 downto 0) := "0100"; --SUB A, Imm
+	constant CMP_A : std_logic_vector(3 downto 0) := "0101"; --CMP A, Imm
+	constant AND_A : std_logic_vector(3 downto 0) := "0110"; --AND A, Imm
+	constant OR_A  : std_logic_vector(3 downto 0) := "0111"; --OR  A, Imm
+	constant XOR_A : std_logic_vector(3 downto 0) := "1000"; --XOR A, Imm
+	constant SHL_A : std_logic_vector(3 downto 0) := "1001"; --SHL A
+	constant SHR_A : std_logic_vector(3 downto 0) := "1010"; --SHR A
+	constant NOT_A : std_logic_vector(3 downto 0) := "1011"; --NOT A
+	constant JMP_I : std_logic_vector(3 downto 0) := "1100"; --JMP Imm
+	constant JMC_I : std_logic_vector(3 downto 0) := "1101"; --JMC Imm
+	constant JMZ_I : std_logic_vector(3 downto 0) := "1110"; --JMZ Imm
 --	constant  : std_logic_vector(3 downto 0) := "1111"; --JMV Imm
 	
 	--selecter bus
@@ -102,10 +102,12 @@ architecture Behavioral of OriginalCPU is
 				 ALU_Z : out std_logic_vector (4 downto 0));
 	end component;
 	
-	component XXX
-		port (	 : in  std_logic_vector ();
-					 : out std_logic_vector ();
-					);
+	component SELECTER
+		port ( SEL_IN  : in  std_logic_vector (3 downto 0);
+				 FLAG_IN : in  std_logic_vector (1 downto 0);
+				 OUT_LATCH : out std_logic_vector (2 downto 0);
+				 OUT_ALU   : out std_logic_vector (2 downto 0);
+				 OUT_ZERO  : out std_logic);
 	end component;
 	
 begin
@@ -120,6 +122,7 @@ begin
 	
 	CPU_SEL_A : SEL_A port map (BUS_AREG_O, SEL_Z, BUS_ALU_A);
 	
+	CPU_SEL   : SELECTER port map (BUS_IR(7 downto 4), BUS_FR(2 downto 1), BUS_LATCH(2 downto 0), BUS_ALU_SEL(2 downto 0), SEL_Z);
 	
 	
 end Behavioral;

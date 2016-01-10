@@ -1,4 +1,5 @@
 vhdl work "SEL_A.vhd"
+vhdl work "SELECTER.vhd"
 vhdl work "Reg_4bit.vhd"
 vhdl work "FlagRegistor.vhd"
 vhdl work "ALU.vhd"
