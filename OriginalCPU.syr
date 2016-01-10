@@ -4,13 +4,13 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.16 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.16 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> Reading design: OriginalCPU.prj
 
@@ -115,8 +115,7 @@ Architecture behavioral of Entity sel_a is up to date.
 Compiling vhdl file "C:/ForVHDL/OriginalCPU_C/SELECTER.vhd" in Library work.
 Architecture behavioral of Entity selecter is up to date.
 Compiling vhdl file "C:/ForVHDL/OriginalCPU_C/OriginalCPU.vhd" in Library work.
-Entity <originalcpu> compiled.
-Entity <originalcpu> (Architecture <behavioral>) compiled.
+Architecture behavioral of Entity originalcpu is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
@@ -472,11 +471,11 @@ Offset:              7.165ns (Levels of Logic = 1)
 
 
 Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 5.84 secs
+Total CPU time to Xst completion: 6.04 secs
  
 --> 
 
-Total memory usage is 218704 kilobytes
+Total memory usage is 218448 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   13 (   0 filtered)
