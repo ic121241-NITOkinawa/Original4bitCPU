@@ -5,33 +5,33 @@ FL C:/ForVHDL/OriginalCPU/OriginalCPU.vhd 2016/01/05.16:06:53 P.49d
 FL C:/ForVHDL/OriginalCPU/Reg_4bit.vhd 2016/01/05.08:29:27 P.49d
 FL C:/ForVHDL/OriginalCPU/SEL_A.vhd 2016/01/05.08:29:46 P.49d
 FL C:/ForVHDL/OriginalCPU_C/ALU.vhd 2016/01/05.08:29:53 P.49d
-EN work/ALU 1452436168 FL C:/ForVHDL/OriginalCPU_C/ALU.vhd PB ieee/std_logic_1164 1354696159 \
+EN work/ALU 1452436843 FL C:/ForVHDL/OriginalCPU_C/ALU.vhd PB ieee/std_logic_1164 1354696159 \
       PB ieee/std_logic_arith 1354696160 PB ieee/STD_LOGIC_UNSIGNED 1354696162
-AR work/ALU/Behavioral 1452436169 \
-      FL C:/ForVHDL/OriginalCPU_C/ALU.vhd EN work/ALU 1452436168
+AR work/ALU/Behavioral 1452436844 \
+      FL C:/ForVHDL/OriginalCPU_C/ALU.vhd EN work/ALU 1452436843
 FL C:/ForVHDL/OriginalCPU_C/FlagRegistor.vhd 2016/01/05.08:29:39 P.49d
-EN work/FlagRegistor 1452436170 FL C:/ForVHDL/OriginalCPU_C/FlagRegistor.vhd \
+EN work/FlagRegistor 1452436845 FL C:/ForVHDL/OriginalCPU_C/FlagRegistor.vhd \
       PB ieee/std_logic_1164 1354696159
-AR work/FlagRegistor/Behavioral 1452436171 \
-      FL C:/ForVHDL/OriginalCPU_C/FlagRegistor.vhd EN work/FlagRegistor 1452436170
-FL C:/ForVHDL/OriginalCPU_C/OriginalCPU.vhd 2016/01/10.23:23:46 P.49d
-EN work/OriginalCPU 1452436178 FL C:/ForVHDL/OriginalCPU_C/OriginalCPU.vhd \
+AR work/FlagRegistor/Behavioral 1452436846 \
+      FL C:/ForVHDL/OriginalCPU_C/FlagRegistor.vhd EN work/FlagRegistor 1452436845
+FL C:/ForVHDL/OriginalCPU_C/OriginalCPU.vhd 2016/01/10.23:40:34 P.49d
+EN work/OriginalCPU 1452436853 FL C:/ForVHDL/OriginalCPU_C/OriginalCPU.vhd \
       PB ieee/std_logic_1164 1354696159
-AR work/OriginalCPU/Behavioral 1452436179 \
-      FL C:/ForVHDL/OriginalCPU_C/OriginalCPU.vhd EN work/OriginalCPU 1452436178 \
+AR work/OriginalCPU/Behavioral 1452436854 \
+      FL C:/ForVHDL/OriginalCPU_C/OriginalCPU.vhd EN work/OriginalCPU 1452436853 \
       CP ALU CP FlagRegistor CP Reg_4bit CP SEL_A CP SELECTER
 FL C:/ForVHDL/OriginalCPU_C/Reg_4bit.vhd 2016/01/05.08:29:27 P.49d
-EN work/Reg_4bit 1452436172 FL C:/ForVHDL/OriginalCPU_C/Reg_4bit.vhd \
+EN work/Reg_4bit 1452436847 FL C:/ForVHDL/OriginalCPU_C/Reg_4bit.vhd \
       PB ieee/std_logic_1164 1354696159
-AR work/Reg_4bit/Behavioral 1452436173 \
-      FL C:/ForVHDL/OriginalCPU_C/Reg_4bit.vhd EN work/Reg_4bit 1452436172
+AR work/Reg_4bit/Behavioral 1452436848 \
+      FL C:/ForVHDL/OriginalCPU_C/Reg_4bit.vhd EN work/Reg_4bit 1452436847
 FL C:/ForVHDL/OriginalCPU_C/SELECTER.vhd 2016/01/09.22:19:10 P.49d
-EN work/SELECTER 1452436176 FL C:/ForVHDL/OriginalCPU_C/SELECTER.vhd \
+EN work/SELECTER 1452436851 FL C:/ForVHDL/OriginalCPU_C/SELECTER.vhd \
       PB ieee/std_logic_1164 1354696159
-AR work/SELECTER/Behavioral 1452436177 \
-      FL C:/ForVHDL/OriginalCPU_C/SELECTER.vhd EN work/SELECTER 1452436176
+AR work/SELECTER/Behavioral 1452436852 \
+      FL C:/ForVHDL/OriginalCPU_C/SELECTER.vhd EN work/SELECTER 1452436851
 FL C:/ForVHDL/OriginalCPU_C/SEL_A.vhd 2016/01/05.08:29:46 P.49d
-EN work/SEL_A 1452436174 FL C:/ForVHDL/OriginalCPU_C/SEL_A.vhd \
+EN work/SEL_A 1452436849 FL C:/ForVHDL/OriginalCPU_C/SEL_A.vhd \
       PB ieee/std_logic_1164 1354696159
-AR work/SEL_A/Behavioral 1452436175 \
-      FL C:/ForVHDL/OriginalCPU_C/SEL_A.vhd EN work/SEL_A 1452436174
+AR work/SEL_A/Behavioral 1452436850 \
+      FL C:/ForVHDL/OriginalCPU_C/SEL_A.vhd EN work/SEL_A 1452436849

@@ -122,7 +122,7 @@ begin
 	
 	CPU_SEL_A : SEL_A port map (BUS_AREG_O, SEL_Z, BUS_ALU_A);
 	
-	CPU_SEL   : SELECTER port map (BUS_IR(7 downto 4), BUS_FR(2 downto 1), BUS_LATCH(2 downto 0), BUS_ALU_SEL(2 downto 0), SEL_Z);
+	SEL   : SELECTER port map (BUS_IR(7 downto 4), BUS_FR(2 downto 1), BUS_LATCH(2 downto 0), BUS_ALU_SEL(2 downto 0), SEL_Z);
 	
 	
 end Behavioral;
